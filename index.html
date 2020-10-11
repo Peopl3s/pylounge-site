@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PyLounge - программирование на Python и всё о IT</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" id="checkbox-menu">
+      <label for="checkbox-menu">
+        <div class="outer-menu">
+          <div class="menu-logo-part">
+            <a href="#" class="logo">
+              <img src="media/plf.png" alt="">
+            </a>
+            <a href="#" class="logo-text">PyLounge</a>
+          </div>
+          <div class="menu-part">
+            <a href="#">Партнёрка</a>
+            <a href="#">Магазин</a>
+          </div>
+          <div class="menu-part">
+            <a class="menu-btn red" href="#">Войти</a>
+            <a class="menu-btn white" href="#">Регистрация</a>
+          </div>
+          <div class="toggle">☰</i></div>
+        </div>
+        <div class="low-menu">
+          <hr>
+          <ul class="menu">
+            <li><a href="#">IT статьи</a></li>
+            <li><a href="#">Видеокурсы</a></li>
+            <li><a href="#">Тесты и практика</a></li>
+            <li><a href="#">Программы обучения</a></li>
+            <li>
+              <div class="search">
+                <div onclick="">
+                  <i class="fas fa-search"></i> Поиск
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="hide-menu" id="hide-menu">
+          <ul class="hide-menu-ul">
+            <li><a href="#">IT статьи</a></li>
+            <li><a href="#">Видеокурсы</a></li>
+            <li><a href="#">Тесты и практика</a></li>
+            <li><a href="#">Программы обучения</a></li>
+            <li><a href="#">Партнёрка</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li>
+              <div class="search">
+                <div onclick="">
+                  <i class="fas fa-search"></i> Поиск
+                </div>
+              </div>
+            </li>
+            <li><button class="menu-btn red">Войти</button></li>
+            <li> <button class="menu-btn white">Регистрация</button></li>
+          </ul>
+        </div>
+        <hr>
+    </nav>
+  </header>
+  <main>
+
+    <section class="first-section wrapper">
+      <div class="first">
+        <div class="first-cont">
+          <h1>Онлайн школа IT профессий</h1>
+          <p class="first-text">
+            Обучаем веб программированию, созданию игр и разработке ПО. Проходите курсы, решайте задачи, просматривайте
+            новости и становитесь настоящим мастерами программирования!
+          </p>
+          <a class="btn red" href="#" class="first-btn">Онлайн обучение</a>
+        </div>
+      </div>
+      <div class="last">
+        <img src="media/la.png" alt="">
+      </div>
+    </section>
+
+    <section class="py-video">
+      <div class="video-part wrapper">
+        <div class="video-header">
+          <h2>Видеокурсы</h2>
+          <a class="menu-btn btn white" href="#">Все курсы [74]</a>
+        </div>
+        <p>На сайте на данный момент представлено 74 курса, большинство из которых являются бесплатными. Вы можете
+          приступить к изучению как платных, так и бесплатных курсов прямо сейчас. Ниже представлено несколько случайных
+          курсов на сайте.</p>
+
+        <div class="cards">
+          <h3 class="video-heading-odd">Бесплатно</h3>
+          <div class="card first-video">
+            <video controls="controls" poster="media/best_book_ph.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+              <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+
+          <div class="card second-video">
+            <video controls="controls" poster="media/p2.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+                <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+
+
+          <div class="card third-video">
+            <video controls="controls" poster="media/p6.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+                <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <h3 class="video-heading-even">Бесплатно</h3>
+          <div class="card third-video align-base">
+            <video controls="controls" poster="media/p4.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+                <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+
+          <div class="card second-video align-base">
+            <video controls="controls" poster="media/p5.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+                <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+
+          <div class="card first-video align-base">
+            <video controls="controls" poster="media/p3.png">
+              <source src="media/best_book.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            </video>
+            <div class="card-container">
+              <span class="title_course">5 Лучших Книг По Data Science И Machine Learning <br>
+                <span class="time-start">1 видео</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="all-video-btn btn red">Посмотреть все курсы</div>
+    </section>
+
+    <section class="articals">
+      <div class="wrapper artic">
+        <h2>Новые статьи</h2>
+        <div class="artical-cards">
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a1.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a2.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a3.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a3.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a5.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+
+          <div class="artical-card">
+            <a href="#">
+              <img src="media/a6.jpg" alt="От Spotyfy к собственной рекомендательной системе на Python"
+                title="От Spotify к собственной рекомендательной системе (Python)">
+            </a>
+            <div class="articl-desc">
+              <p class="articl-title">От Spotyfy к собственной рекомендательной системе на Python</p>
+              <br>
+              <p class="articl-text">Взять Spotify API, добавить разведочный анализ данных, приправить методами
+                контролируемого и неконтролируемого машинного обучения, и вот она, магия - собственная рекомендательная
+                система с продвинутыми возможностями анализа плейлистов и составления рекомендаций на Python</p>
+            </div>
+            <div class="articl-info">
+              <i class="fa fa-eye" aria-hidden="true"> 19</i>
+              <span class="time"><i class="far fa-clock"></i> 10 октября 2020 в 13:57</span>
+            </div>
+          </div>
+        </div>
+        <div class="more-art-btn">
+          <a class="btn red" href="#">Посмотреть больше</a>
+        </div>
+      </div>
+    </section>
+
+    <div id="clouds">
+      <img src="media/cloud.PNG" alt="">
+    </div>
+
+    <section class="social wrapper">
+      <h2>Подпишись на нас</h2>
+      <p class="social-main">Присоединяйся к сообществу единомышленников, узнавай много нового из мира IT и будь в курсе
+        всех событий!</p>
+      <div class="all-socials">
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/vk.svg" alt="Vk">
+          </a>
+          <p>Группа ВКонтакте</p>
+        </div>
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/fb.svg" alt="Vk">
+          </a>
+          <p>Группа Facebook</p>
+        </div>
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/twitter.svg" alt="Vk">
+          </a>
+          <p>Twitter</p>
+        </div>
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/youtube.svg" alt="Vk">
+          </a>
+          <p>YouTube-канал</p>
+        </div>
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/telegram.svg" alt="Vk">
+          </a>
+          <p>Telegram-канал</p>
+        </div>
+
+        <div>
+          <a href="#" target="_blank" rel="nofollow">
+            <img src="media/instagram.svg" alt="Vk">
+          </a>
+          <p>Instagram</p>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="website wrapper">
+      <div class="image-web">
+        <img src="media/apl.png" alt="">
+      </div>
+      <div class="text-block-web">
+        <h2>Хотите быть модным айтишником?</h2>
+        <p>Мы предлагаем посетить наш интернет магазин одежды и различных вещей, связанных с программированием. В
+          магазине вы найдете различные товары как для себя, так и на подарок. Ассортимент постоянно пополняется, так
+          что заходите и выбирайте программерские вещи, созданные программистами!</p>
+        <a href="#" target="_blank" rel="nofollow" class="btn red">Перейти в магазин</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div id="all-footer-items">
+          <div class="footer-logo">
+            <div id="to_top" onclick="return toTop()"><i class="fas fa-chevron-up"></i></div>
+            <a href="/" title="На главную страницу">
+              <img src="media/plf.png" class="logo_simple" title="PyLounge" alt="PyLounge">
+              <span>PyLounge</span>
+            </a><br>
+            <p>Онлайн школа обучения<br>IT профессиям</p>
+          </div>
+
+          <div class="footer-links">
+            <div>
+              <p class="headings-footer">Информация</p>
+              <ul>
+                <li><a href="gift">Сертификаты</a></li>
+                <li><a href="spravka/">Справочники</a></li>
+                <li><a href="vacancy">Вакансии</a></li>
+              </ul>
+              <ul class="last">
+                <li><a href="about">О нас</a></li>
+                <li><a href="rights">Соглашение</a></li>
+                <li><a href="sitemap">Карта сайта</a></li>
+              </ul>
+            </div>
+            <div>
+              <p class="headings-footer">Аккаунт</p>
+              <ul>
+                <li><a href="user/">Войти</a></li>
+                <li><a href="reg">Регистрация</a></li>
+                <li><a href="kontakti">Обратная связь</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-subscribe">
+            <p>Подпишитесь на рассылку и сразу же получите 5 практических заданий по программированию!</p>
+            <form action="">
+              <input type="email" id="emailFooter" class="footer_subscribe" placeholder="E-mail">
+              <div id="subscribe_footer" class="btn red">
+                Подписаться
+              </div>
+            </form>
+            <p class="mail-footer">Пишите: <noindex><a href="mailto:help@itproger.com"
+                  rel="nofollow">help@pylounge.com</a></noindex>
+            </p>
+        
+        </div>
+
+
+      </div>
+
+
+      <div id="social-buttons">
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-vk"></i>
+        </a>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-youtube"></i>
+        </a>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="#" target="_blank" rel="nofollow">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      </div>
+    </footer>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
